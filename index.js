@@ -1,7 +1,24 @@
 //inputing my packages
 const inquirer = require(`inquirer`);
-const generateSvg = require('./examples/.svg')
 const fs = require('fs')
+const {Circle, Square, Triangel} = require('./lib/shapes')
+
+//creating a class for SVG 
+class Svg {
+    constructor() {  
+        this.textElement= '' //I will be using the textElement to return the value of the text content
+        this.shapeElement ='' //I will be using the shapeElement to return the element shape
+    }
+
+}
+
+
+
+
+
+
+
+
 const questions = [
         //array of prompts for the user to input
         {
